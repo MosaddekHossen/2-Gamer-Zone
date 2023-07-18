@@ -1,0 +1,12 @@
+/* ============================ */
+/* Mobile responsive section */
+/* ============================ */
+@media screen and (max-width: 426px) {
+    .banner {
+        display: block;
+        padding: 30px;
+    }
+}
+/* ============================ */
+/* Tablet responsive section */
+/* ============================ */

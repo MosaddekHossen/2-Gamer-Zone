@@ -33,6 +33,17 @@ img {
     margin: 0 auto;
 }
 
+.btn-one{
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+color: #FFF;
+font-size: 0.9rem;
+font-weight: 600;
+text-transform: uppercase;
+border: 0;
+padding: 15px 30px;
+
+}
 /* ======================= */
 /* Navbar section */
 /* ======================= */
@@ -72,7 +83,19 @@ header nav {
 .nav-2>ul .bt {
     background: rgba(11, 2, 35, 0.10);
 }
+.div-btn{
+    margin-top: 20px;
+}
+.btn-one:hover{
+    background: #00a2ff;
 
+}
+.btn-two{
+    background: #4EC5F7;
+}
+.btn-two:hover{
+    background: #09ce17;
+}
 /* ======================= */
 /* Banner section */
 /* ======================= */
@@ -80,7 +103,6 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10%;
     margin-bottom: 100px;
 }
 

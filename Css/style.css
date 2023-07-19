@@ -174,12 +174,33 @@ h1 {
     padding: 15px 0;
 }
 
+.rel {
+    position: relative;
+}
+
 .img-one {
-    background-image: url("../images/Rectangle4.png"), linear-gradient(rgb(77, 72, 72), rgb(5, 5, 5));
-    background-blend-mode: overlay;
-    height: 400px;
-    height: 300px;
-    /* z-index: 100; */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+    width: 100%;
+    height: 83%;
+    position: absolute;
+    border-radius: 13px;
+    top: 0;
+}
+
+.icon {
+    position: absolute;
+    left: 44%;
+    top: 43%;
+    font-size: 3rem;
+    color: #FFF;
+}
+
+.text {
+    position: absolute;
+    left: 39%;
+    top: 60%;
+    font-size: 1rem;
+    color: #FF42A5;
 }
 
 /* ========================================== */

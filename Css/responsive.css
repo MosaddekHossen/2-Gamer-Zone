@@ -6,17 +6,21 @@
         flex-direction: column;
         padding: 30px 0;
     }
+
     .align {
         justify-content: center;
     }
+
     .nav-2>ul {
         flex-direction: column;
         gap: 0;
     }
+
     .play {
         font-size: 2rem;
         text-align: center;
     }
+
     .banner,
     .online {
         flex-direction: column;
@@ -28,9 +32,11 @@
     .container {
         padding: 30px;
     }
+
     .image {
         width: 100%;
     }
+
     .div-1 {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
@@ -53,7 +59,7 @@
     }
 
     footer {
-        padding: 30px;
+        padding: 50px 30px;
     }
 
     .footer-menu>ul {
@@ -67,13 +73,24 @@
         padding: 0 30px;
         width: 100%;
         grid-template-columns: repeat(3, 1fr);
+        flex-direction: column;
     }
+
+    .all-box {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
     .online {
         margin-bottom: 50px;
     }
-    .onl,.funny {
+
+    .onl,
+    .funny {
         font-size: 2.25rem;
     }
+
     .cont {
         text-align: center;
         width: 100%;

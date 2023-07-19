@@ -33,17 +33,18 @@ img {
     margin: 0 auto;
 }
 
-.btn-one{
+.btn-one {
     border-radius: 48px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-color: #FFF;
-font-size: 0.9rem;
-font-weight: 600;
-text-transform: uppercase;
-border: 0;
-padding: 15px 30px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    padding: 15px 30px;
 
 }
+
 /* ======================= */
 /* Navbar section */
 /* ======================= */
@@ -59,10 +60,12 @@ header nav {
     justify-content: space-between;
     align-items: center;
 }
-.align{
+
+.align {
     display: flex;
     align-items: center;
 }
+
 .nav-2>ul {
     display: flex;
     justify-content: space-around;
@@ -83,19 +86,24 @@ header nav {
 .nav-2>ul .bt {
     background: rgba(11, 2, 35, 0.10);
 }
-.div-btn{
+
+.div-btn {
     margin-top: 20px;
 }
-.btn-one:hover{
+
+.btn-one:hover {
     background: #00a2ff;
 
 }
-.btn-two{
+
+.btn-two {
     background: #4EC5F7;
 }
-.btn-two:hover{
+
+.btn-two:hover {
     background: #09ce17;
 }
+
 /* ======================= */
 /* Banner section */
 /* ======================= */
@@ -116,9 +124,11 @@ header nav {
 .image {
     width: 45%;
 }
+
 .play {
     margin-top: 80px;
 }
+
 h1 {
     font-size: 5rem;
     font-weight: 800;

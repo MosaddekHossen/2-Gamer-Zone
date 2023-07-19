@@ -206,7 +206,7 @@ h1 {
 /* Img box section */
 /* ========================================== */
 .img-box {
-    width: 70rem;
+    /* width: 70rem; */
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);

@@ -2,11 +2,52 @@
 /* Mobile responsive section */
 /* ============================ */
 @media screen and (max-width: 426px) {
-    .banner {
-        display: block;
+
+    .banner,
+    .online {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        padding: 30px;
+        gap: 0;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    .div-1 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .p-des {
+        text-align: center;
+    }
+
+    .online>.img {
+        width: 90%;
+    }
+
+    .cont {
+        width: 100%;
+    }
+
+    .box {
+        left: 80%;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    .footer-menu>ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
         padding: 30px;
     }
 }
+
 /* ============================ */
 /* Tablet responsive section */
 /* ============================ */

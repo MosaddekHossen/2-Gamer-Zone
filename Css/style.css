@@ -116,7 +116,9 @@ header nav {
 .image {
     width: 45%;
 }
-
+.play {
+    margin-top: 80px;
+}
 h1 {
     font-size: 5rem;
     font-weight: 800;

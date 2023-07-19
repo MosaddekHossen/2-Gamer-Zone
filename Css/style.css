@@ -24,44 +24,52 @@
 img {
     width: 100%;
 }
-.image-f{
+
+.image-f {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 170px;
     margin: 0 auto;
 }
+
 /* ======================= */
 /* Navbar section */
 /* ======================= */
-header nav{
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 0;
 }
-.nav-1{
+
+.nav-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-2>ul{
+
+.nav-2>ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
     gap: 30px;
 }
-.nav-2>ul a{
-    text-decoration: none;  
+
+.nav-2>ul a {
+    text-decoration: none;
     padding: 10px 15px;
     border-radius: 8px;
 }
-.nav-2>ul li:hover a{
-background: rgba(11, 2, 35, 0.10);
+
+.nav-2>ul li:hover a {
+    background: rgba(11, 2, 35, 0.10);
 }
-.nav-2>ul .bt{
-background: rgba(11, 2, 35, 0.10);
+
+.nav-2>ul .bt {
+    background: rgba(11, 2, 35, 0.10);
 }
+
 /* ======================= */
 /* Banner section */
 /* ======================= */
@@ -79,9 +87,11 @@ background: rgba(11, 2, 35, 0.10);
     font-weight: 600;
     text-transform: uppercase;
 }
-.image{
+
+.image {
     width: 45%;
 }
+
 h1 {
     font-size: 5rem;
     font-weight: 800;
@@ -158,22 +168,31 @@ h1 {
 /* ========================================== */
 /* Img box section */
 /* ========================================== */
-.img-box{
+.img-box {
     width: 70rem;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
-.all-box{
+
+.all-box {
     display: flex;
-align-items: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 50px;
 }
-.all-box:hover{
-   border: 2px solid red;
-   border-radius: 25%;
-   padding: 10px 20px;
+
+.all-box:hover {
+    border: 2px solid red;
+    color: #FF42A5;
+
 }
-.all-box>.im-box{
+
+.active {
+    border: 2px solid red;
+}
+
+.all-box>.im-box {
     width: 50px;
     height: 50px;
     padding-right: 5px;

@@ -58,9 +58,11 @@
     }
 
     .img-box {
-        width: 3rem;
-
+        width: 10rem;
         grid-template-columns: 1fr;
+    }
+    .online {
+        margin-bottom: 50px;
     }
 }
 

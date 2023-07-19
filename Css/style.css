@@ -48,7 +48,10 @@ header nav {
     justify-content: space-between;
     align-items: center;
 }
-
+.align{
+    display: flex;
+    align-items: center;
+}
 .nav-2>ul {
     display: flex;
     justify-content: space-around;

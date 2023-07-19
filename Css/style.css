@@ -24,12 +24,20 @@
 img {
     width: 100%;
 }
+.image-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    margin: 0 auto;
+}
 /* ======================= */
 /* Navbar section */
 /* ======================= */
 header nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 0;
 }
 .nav-1{
@@ -72,7 +80,7 @@ background: rgba(11, 2, 35, 0.10);
     text-transform: uppercase;
 }
 .image{
-    width: 40%;
+    width: 45%;
 }
 h1 {
     font-size: 5rem;
@@ -188,10 +196,4 @@ footer {
     gap: 2%;
     list-style: none;
     padding: 20px;
-}
-.image-f{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
 }

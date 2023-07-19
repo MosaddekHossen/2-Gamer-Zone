@@ -193,6 +193,7 @@ h1 {
     top: 43%;
     font-size: 3rem;
     color: #FFF;
+    cursor: pointer;
 }
 
 .text {

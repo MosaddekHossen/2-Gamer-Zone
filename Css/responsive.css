@@ -100,6 +100,15 @@
     .img-one {
         height: 89%;
     }
+
+    .img-box>.active {
+        border: 0;
+    }
+
+    .footer>ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* ============================ */
